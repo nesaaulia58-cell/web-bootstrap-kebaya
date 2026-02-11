@@ -1,0 +1,104 @@
+.main-navbar {
+  background-color: #7b2d26; 
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fdf1e7 !important; 
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffd7b5 !important;
+}
+
+/* Banner */
+.banner {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(123,45,38,0.6), rgba(123,45,38,0.6)),
+    url("background.jpg"); 
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Banner content */
+.banner-content {
+  text-align: center;
+}
+
+.banner-content h2,
+.banner-content h3 {
+  font-family: 'Times New Roman', serif;
+  letter-spacing: 1px;
+}
+
+/* Card promo */
+.hovered-card .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hovered-card .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Button */
+.btn-primary {
+  background-color: #7b2d26;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #5a1f1a;
+}
+
+/* Section title */
+h2.text-center {
+  font-family: 'Georgia', serif;
+  color: #7b2d26;
+}
+/* Service Section */
+.main-color {
+  background-color: #7b2d26; /* maroon kebaya */
+}
+
+.icon-service {
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  font-size: 35px;
+  color: #7b2d26;
+}
+
+.hovered-card {
+  transition: transform 0.3s ease;
+}
+
+.hovered-card:hover {
+  transform: translateY(-10px);
+}
+
+.hovered-card h5 {
+  font-weight: 600;
+}
+
+.hovered-card p {
+  font-size: 14px;
+}
+.hovered-card {
+  transition: transform 0.3s ease;
+}
+
+.hovered-card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
