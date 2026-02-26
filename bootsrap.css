@@ -63,7 +63,7 @@ h2.text-center {
 }
 /* Service Section */
 .main-color {
-  background-color: #7b2d26; /* maroon kebaya */
+  background-color: #7b2d26; 
 }
 
 .icon-service {
@@ -101,4 +101,132 @@ h2.text-center {
 .card-img-top {
   height: 250px;
   object-fit: cover;
+}
+.kebaya-review {
+    padding: 80px 0;
+    background: rgba(123,45,38,0.6);
+    color: white;
+}
+
+.kebaya-card {
+    background: rgba(123,45,38,0.6);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 18px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.kebaya-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.13);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.kebaya-card .quote-icon {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.3);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.kebaya-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.kebaya-card .stars {
+    color: gold;
+    margin: 10px 0;
+}
+
+.kebaya-card h6 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.reservasi-bg {
+    background-color: #ffffff;
+}
+
+.judul-reservasi {
+    color: #7b2d26;
+    font-weight: bold;
+}
+
+.btn-reservasi-custom {
+    background-color: #7b2d26;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-reservasi-custom:hover {
+    background-color: #5a1f1a;
+}
+.footer {
+    background-color: #a67c52
+}
+
+.social-icon {
+    font-size: 1.6rem;
+    color: #5a1f1a
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color: #a67c52;
+}
+
+.btn-subscribe-custom {
+    background-color: rgba(123,45,38,0.6);  
+    border: none;
+}
+
+.btn-subscribe-custom:hover {
+    background-color: rgba(123,45,38,0.6); 
+}
+footer {
+    background-color: #a67c52
+    color: #f5e6da;              
+}
+
+footer h5,
+footer h6 {
+    color: #f8ede3;
+}
+
+footer a {
+    color: #f5e6da;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #d4a373;   
+}
+
+footer hr {
+    border-color: rgba(245, 160, 160, 0.2);
+}
+footer {
+    background: linear-gradient(135deg, #c8a27c, #e6d2c1);
+    color: #4a2c2a;
+    padding: 60px 0;
+}
+footer h2,
+footer h3,
+footer p,
+footer a {
+    color: #4a2c2a
+}
+.footer-top {
+    background: linear-gradient(135deg, #d7b899, #f2e4d8);
+    color: #4a2c2a !important;
+}
+
+.footer-top h5,
+.footer-top p,
+.footer-top a {
+    color: #4a2c2a !important;
 }
