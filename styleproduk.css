@@ -1,0 +1,102 @@
+.main-navbar {
+  background-color: #7b2d26; 
+}
+
+.navbar-brand,
+.nav-link {
+  color: rgb(255, 255, 255) ;
+}
+
+.banner {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.jpg");
+    color: #fff;
+  background-size: cover;
+  background-position: center;
+  
+
+  display: flex;
+  align-items: center;
+}
+
+.produk-banner {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('batabatik.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: rgb(0, 0, 0)
+        }
+
+.card {
+    transition: transform 0.3s ease; 
+    border: none;
+    box-shadow: 0 4px 8px rgba(206, 114, 114, 0.1); 
+}
+
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover; 
+}
+
+.card-title {
+    color:#7b2d26 ;
+    
+} 
+
+.btn-primary {
+    background-color: transparent; 
+    border: 1px solid #7b2d26 ; 
+    color: #7b2d26 ; 
+    
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    
+    padding: 5px 25px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color:#7b2d26; ;
+
+    color: black; 
+}
+
+.footer {
+    background-color: #f5e6da;
+}
+
+.footer .social-icon {
+    font-size: 1.6rem;
+    color: black;
+    transition: .3s;
+
+}
+
+.footer .social-icon:hover {
+    color: #a67c52;
+}
+
+.footer-main {
+    background-color:#a67c52; 
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.footer-main a:hover {
+    color:#a67c52 !important;
+}

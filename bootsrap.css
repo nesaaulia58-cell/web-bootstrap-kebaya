@@ -172,7 +172,7 @@ h2.text-center {
 .social-icon {
     font-size: 1.6rem;
     color: #5a1f1a
-    transition: 0.3s;
+    transition 0.3s;
 }
 
 .social-icon:hover {
@@ -189,7 +189,7 @@ h2.text-center {
 }
 footer {
     background-color: #a67c52
-    color: #f5e6da;              
+    color #f5e6da;              
 }
 
 footer h5,
