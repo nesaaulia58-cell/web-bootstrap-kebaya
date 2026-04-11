@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(to right, #7b2d2d);
+}
+
+.navbar .navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #ffd700 !important;
+}
+
+.navbar .nav-link.active {
+    color: #ffd700 !important;
+    font-weight: bold;
+}
+.produk-banner, .promo-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('batabatik.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    height: 450px !important; 
+    min-height: 450px !important;
+    
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important; 
+    align-items: center !important;    
+    
+    padding: 0 !important; 
+    margin: 0 !important;
+    text-align: center !important;
+    color: #b57e3b !important;
+}
+
+footer {
+    background-color: #896a51;
+}
+
+.footer .social-icon {
+    font-size: 1.6rem;
+    color: black;
+    transition: .3s;
+
+}
+
+.footer .social-icon:hover {
+    color: #a67c52;
+}
+.footer {
+    background-color: #a67c52 !important;
+    color:white;
+}
+.footer-main {
+    background-color: #c8a27c !important;
+}
+.footer-main {
+    background-color:#a67c52; 
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.footer-main a:hover {
+    color:#b97837 !important;
+}
